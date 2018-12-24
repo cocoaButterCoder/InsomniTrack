@@ -8,11 +8,38 @@
     tools:context=".MainActivity"
     android:background="@drawable/gradient">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/insomni"
+        android:layout_height="wrap_content"
+        android:text="Insomni"
+        android:textColor="#FFEE58"
+        android:textAllCaps="true"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/insomni"
+        android:text="Track"
+        android:textColor="#FFEE58"
+        android:textAllCaps="true"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingLeft="62dp"
+        android:paddingBottom="8dp"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Sleep"/>
+        android:text="Sleep"
+        android:layout_marginBottom="16dp"/>
 
 </RelativeLayout>
